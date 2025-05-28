@@ -1,0 +1,16 @@
+.titulo {
+    color: rgb(1, 28, 111);
+    font-size: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.unico p {
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+}
+
+.img {
+    margin-left: 40%;
+}

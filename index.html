@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulário </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="principal">
+        <h1> Cadastro </h1>
+
+        <form action="obg.html" method="post"> 
+            <label for="nome"> Nome: </label>
+            <input type="text" id="nome" name="nome" required>
+            <br>
+            <label for="sobrenome"> Sobrenome: </label>
+            <input type="text" id="sobrenome" name="sobrenome">
+            <br><br>
+
+            <label for="sexo"> Sexo: </label>
+            <select name="sexo" id="sexo">
+                <option value="feminino"> Feminino </option>
+                <option value="masculino"> Masculino </option>
+                <option value="outros"> Outros </option>
+            </select>
+            <br> <br>
+
+            <label for="data_nasc"> Data de nascimento: </label>
+            <input type="date" id="data_nasc" name="data_nasc">
+            <br> <br>
+
+            <label for="contato"> Whatsapp: </label>
+            <input type="text" id="contato" name="contato" required>
+            <br> <br>
+
+            <label for="email"> E-mail: </label>
+            <input type="text" id="email" name="email">
+            <br><br>
+
+            <label for="rg"> RG: </label>
+            <input type="text" id="rg" name="rg">
+            <br><br>
+
+            <label for="cidade"> Cidade: </label>
+            <input type="text" id="cidade" name="cidade">
+            <br><br>
+
+            <label for="estado"> Estado: </label>
+            <select name="estado" id="estado">
+                <option value="rs"> RS </option>
+                <option value="sc"> SC </option>
+                <option value="pr"> PR </option>
+            </select>
+
+            <label for="cep"> CEP: </label>
+            <input type="text" id="cep" name="cep">
+            <br><br>
+        
+            <h1> Pesquisa </h1>
+
+            <p> Na sua casa possui Geladeira? </p>
+            <label for="geladeira"> Sim </label>
+            <input type="radio" id="geladeira" name="geladeira">
+            <label for="geladeira"> Não </label>
+            <input type="radio" id="geladeira" name="geladeira">
+            <br><br>
+
+            <p> Na sua casa possui Internet? </p>
+            <label for="net"> Sim </label>
+            <input type="radio" id="net" name="net">
+            <label for=""> Não </label>
+            <input type="radio" id="net" name="net">
+            <br><br>
+
+            <p> Qual sua renda familiar? </p>
+            <input type="checkbox" id="renda" name="renda">
+            <label for="renda"> R$1500,00 á R$1900,00 </label>
+            <br>
+            <input type="checkbox" id="renda" name="renda">
+            <label for="renda"> R$1900,00 á R$2500,00 </label>
+            <br>
+            <input type="checkbox" id="renda" name="renda">
+            <label for="renda"> R$2500,00 á R$3100,00 </label>
+            <br>
+            <input type="checkbox" id="renda" name="renda">
+            <label for="renda"> R$3100,00 á R$3800,00 </label>
+            <br><br>
+
+            <button type="submit"> Enviar formulário </button>
+
+        </form>
+    </div> 
+</body>
+</html>
